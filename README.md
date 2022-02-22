@@ -22,6 +22,12 @@ Edit your /etc/hosts or Assign your local computer and your router as your DNS s
 * You'll have two entries, one for your local computer (127.0.0.1) and one for your router. The reason why you include your router's IP is dnsmasq will fulfill unknown entries through the other known DNS servers. Without the router entry, you're whatever devices connected to you dnsmasq won't know how to connect to the internet.
 
 > sudo vi /etc/hosts
+>
 > 127.0.0.1  yourdomain.com
 
 Set your local computer's IP Address as your DNS Server your iPhone, go to Settings -> Wi-Fi -> Info icon for your connected router -> DNS
+
+![IMG_1049](https://user-images.githubusercontent.com/19804605/155190823-8837fbbb-bbe0-45d9-bbb3-7b1f3d473899.PNG)
+
+![IMG_1050](https://user-images.githubusercontent.com/19804605/155190865-ec1d3d8a-eff1-42f6-a542-a3388518ff06.PNG)
+
