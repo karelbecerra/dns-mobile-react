@@ -5,13 +5,17 @@ Testing Your Local React App Mobile Browser iPhone Android
 The instructions are for Mac OSX via Homebrew:
 
 > brew install dnsmasq
+
 dnsmasq is a lightweight dns server that will fallback to the original DNS server when it encounters an unknown domain
 
 Add the line address=/.your.domain.com/10.0.0.5 to the file /usr/local/etc/dnsmasq.conf
 
+> vi /usr/local/etc/dnsmasq.conf
+
 The IP Address 10.0.0.5 is whatever the IP address assigned to your local computer by your router. You can find this via Network Utility (if you want to be fancy, you can assign a static IP to your local computer in your router)
 
 > sudo brew services restart dnsmasq
+
 This starts dnsmasq process, and it will listen on the DNS ports
 
 Assign your local computer and your router as your DNS servers for your computer via System Preferences -> Network -> Advanced -> DNS Tab
