@@ -1,4 +1,4 @@
-# dns-mobile-react
+# Test your local running app from your mobile browser (DNS Mobile React iPhone Android)
 Testing Your Local React App Mobile Browser iPhone Android
 
 # Install DNS in your Mac
